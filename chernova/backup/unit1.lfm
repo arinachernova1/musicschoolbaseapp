@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 317
+  Height = 405
+  Top = 463
+  Width = 832
+  BorderStyle = bsDialog
+  Caption = 'Добавление ученика музыкальной школы'
+  ClientHeight = 405
+  ClientWidth = 832
+  Position = poDesktopCenter
+  LCLVersion = '2.2.6.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 27
+    Top = 0
+    Width = 832
+    Align = alTop
+    ClientHeight = 27
+    ClientWidth = 832
+    TabOrder = 0
+    object about: TSpeedButton
+      Left = 664
+      Height = 22
+      Top = 2
+      Width = 150
+      Caption = 'О программе'
+    end
+  end
+  object bAdd: TSpeedButton
+    Left = 16
+    Height = 22
+    Top = 2
+    Width = 150
+    Caption = 'Добавить ученика'
+  end
+  object bEdit: TSpeedButton
+    Left = 176
+    Height = 22
+    Top = 2
+    Width = 150
+    Caption = 'Редактировать ученика'
+  end
+  object bDel: TSpeedButton
+    Left = 496
+    Height = 22
+    Top = 2
+    Width = 150
+    Caption = 'Удалить ученика'
+  end
+  object bSort: TSpeedButton
+    Left = 336
+    Height = 22
+    Top = 2
+    Width = 150
+    Caption = 'Сортировать список'
+  end
+  object SG: TStringGrid
+    Left = 0
+    Height = 378
+    Top = 27
+    Width = 832
+    Align = alClient
+    ColCount = 6
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 1
+  end
+end

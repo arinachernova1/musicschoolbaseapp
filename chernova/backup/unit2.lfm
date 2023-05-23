@@ -1,0 +1,83 @@
+object fEdit: TfEdit
+  Left = 1168
+  Height = 294
+  Top = 438
+  Width = 511
+  BorderStyle = bsDialog
+  Caption = 'Редактор ученика'
+  ClientHeight = 294
+  ClientWidth = 511
+  Position = poMainFormCenter
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 51
+    Height = 15
+    Top = 16
+    Width = 124
+    Caption = 'Укажите ФИО ученика'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 51
+    Height = 23
+    Top = 48
+    Width = 380
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 51
+    Height = 15
+    Top = 88
+    Width = 254
+    Caption = 'Укажите дату рождения в формате 01.02.2003  '
+    ParentColor = False
+  end
+  object edata: TEdit
+    Left = 51
+    Height = 23
+    Top = 120
+    Width = 210
+    TabOrder = 1
+  end
+  object label3: TLabel
+    Left = 56
+    Height = 15
+    Top = 158
+    Width = 172
+    Caption = 'Укажите ФИО одного родителя'
+    ParentColor = False
+  end
+  object enamepar: TEdit
+    Left = 51
+    Height = 23
+    Top = 191
+    Width = 380
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 51
+    Height = 15
+    Top = 224
+    Width = 140
+    Caption = 'Выберите специальность'
+    ParentColor = False
+  end
+  object espec: TComboBox
+    Left = 51
+    Height = 23
+    Top = 254
+    Width = 210
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'Вокал'
+      'Фортепиано'
+      'Струнные инструменты'
+      'Духовые инструменты'
+      'Хоровое пение'
+      'Народное пение'
+    )
+    TabOrder = 3
+    Text = 'Вокал'
+  end
+end
